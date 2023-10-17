@@ -1,0 +1,36 @@
+<html>
+    <head>
+
+        <title>
+            ToDoList
+        </title>
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <body>
+        
+        <div class="container">
+            <div class="to-do">
+                <h2>To-Do List
+                    <span class="icon">
+                    <ion-icon name="today"></ion-icon>
+                    </span>
+                </h2>
+                <div class="row">
+                    <input type="text" id="input-box"  placeholder="Add your text">
+                    <button onclick="addTask()">Add</button>
+                </div>
+
+                    <ul id="list-container">
+                        
+                    </ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
